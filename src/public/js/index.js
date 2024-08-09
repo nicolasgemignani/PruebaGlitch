@@ -22,7 +22,7 @@ socket.on('newUserConnected', (newUser) => {
             position: 'top-end',
             showConfirmButton: false,
             timer: 3000,
-            title: `${newUser} se ha unido al chat`,
+            title: `${newUser} se ha unido al Chat`,
             icon: 'success'
         })
     }
